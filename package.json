@@ -1,0 +1,37 @@
+{
+  "name": "google-travel-scrapper",
+  "version": "1.0.0",
+  "description": "This NodeJS App is an automated web scrapper which will fetch the travel highlights of all the countries in the world including it's top places to visit along with their respective description. It also saves the cover image of the country from the Google Travel Library and saves this data in MongoDB Collection.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatelArpitt/google-travel-scrapper.git"
+  },
+  "keywords": [
+    "nodejs",
+    "web-scrapper",
+    "mongodb",
+    "google",
+    "travel"
+  ],
+  "author": "Arpit Patel",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "download": "^8.0.0",
+    "mongoose": "^6.0.7",
+    "puppeteer": "^10.4.0",
+    "puppeteer-select": "^1.0.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "bugs": {
+    "url": "https://github.com/PatelArpitt/google-travel-scrapper/issues"
+  },
+  "homepage": "https://github.com/PatelArpitt/google-travel-scrapper#readme"
+}
