@@ -1,3 +1,6 @@
 # Package Dependencies
 node_modules
 package-lock.json
+
+# Output Folder
+public
